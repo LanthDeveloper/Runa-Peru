@@ -599,28 +599,13 @@ video {
   text-align: center;
 }
 
-.text-7xl {
-  font-size: 4.5em;
+.text-8xl {
+  font-size: 6em;
   line-height: 1em;
 }
 
 .text-xs {
   font-size: 0.75em;
-  line-height: 1em;
-}
-
-.text-9xl {
-  font-size: 8em;
-  line-height: 1em;
-}
-
-.text-xl {
-  font-size: 1.25em;
-  line-height: 1.75em;
-}
-
-.text-8xl {
-  font-size: 6em;
   line-height: 1em;
 }
 

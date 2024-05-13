@@ -19,65 +19,69 @@
    }
    @media (51px <= width <= 100px) {
     body {
-      font-size: .2em;
+      font-size: .15em;
     }
    }
    @media (101px <= width <= 150px) {
     body {
-      font-size: .25em;
+      font-size: .15em;
     }
    }
    @media (151px <= width <= 160px) {
     body {
-      font-size: .30em;
+      font-size: .2em;
     }
    }
    @media (161px <= width <= 180px) {
     body {
-      font-size: .35em;
+      font-size: .25em;
     }
    }
    @media (181px <= width <= 200px) {
     body {
-      font-size: .4em;
+      font-size: .3em;
     }
    }
    @media (201px <= width <= 250px) {
     body {
-      font-size: .45em;
+      font-size: .35em;
     }
    }
    @media (251px <= width <= 300px) {
     body {
-      font-size: .55em;
+      font-size: .4em;
     }
    }
    @media (301px <= width <= 350px) {
     body {
-      font-size: .65em;
+      font-size: .5em;
     }
    }
    @media (351px <= width <= 400px) {
     body {
-      font-size: .8em;
+      font-size: .6em;
     }
    }
    @media (401px <= width <= 450px) {
     body {
-      font-size: .9em;
+      font-size: .7em;
     }
    }
    @media (451px <= width <= 500px) {
     body {
-      font-size: .9em;
+      font-size: .8em;
     }
    }
    @media (501px <= width <= 540px) {
     body {
-      font-size: 1em;
+      font-size: .86em;
     }
    }
-   
+   @media (541px <= width <= 650px) {
+    body {
+      font-size: .9em;
+    }
+   }
    /* @media (541px <= width <= 640px) {
     body {
       font-size: 1.2em;
