@@ -636,7 +636,7 @@ video {
 
 .text-8xl {
   font-size: 6em;
-  line-height: 1em;
+  line-height: .85em;
 }
 
 .text-xs {

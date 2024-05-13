@@ -16,9 +16,9 @@ module.exports = {
       '4xl': ['2.25em', { lineHeight: '2.5em' }],
       '5xl': ['3em', { lineHeight: '1em' }],
       '6xl': ['3.75em', { lineHeight: '1em' }],
-      '7xl': ['4.5em', { lineHeight: '1em' }],
-      '8xl': ['6em', { lineHeight: '1em' }],
-      '9xl': ['8em', { lineHeight: '1em' }],
+      '7xl': ['4.5em', { lineHeight: '.85em' }],
+      '8xl': ['6em', { lineHeight: '.85em' }],
+      '9xl': ['8em', { lineHeight: '.85em' }],
     },
     extend: {
       padding: {
