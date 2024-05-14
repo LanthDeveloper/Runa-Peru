@@ -30,3 +30,7 @@
   }
 }
 
+.svg_time{
+  width: 1em;
+  filter: invert(100%);
+}
