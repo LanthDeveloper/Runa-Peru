@@ -34,3 +34,7 @@
   width: 1em;
   filter: invert(100%);
 }
+
+a{
+ text-decoration: underline;
+}
