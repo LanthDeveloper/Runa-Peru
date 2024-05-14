@@ -725,6 +725,16 @@ video {
   padding-bottom: 0.75em;
 }
 
+.py-4 {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.py-5 {
+  padding-top: 1.25em;
+  padding-bottom: 1.25em;
+}
+
 .text-center {
   text-align: center;
 }
@@ -856,6 +866,11 @@ video {
   .md\:px-14 {
     padding-left: 3.5em;
     padding-right: 3.5em;
+  }
+
+  .md\:py-0 {
+    padding-top: 0em;
+    padding-bottom: 0em;
   }
 
   .md\:text-base {
