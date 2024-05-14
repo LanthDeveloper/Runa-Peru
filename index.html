@@ -12,13 +12,17 @@
 </head>
 <body class="bg-black text-white" >
   <header class="fixed w-full">
-    <nav class="bg-black w-full md:w-11/12 mx-auto py-3 px-3 flex justify-center">
-      <ul class="flex gap-5 md:gap-16 items-center">
+    <nav class="bg-black w-full md:w-11/12 mx-auto py-3 px-3 flex md:justify-center">
+      <ul class="hidden md:flex gap-5 md:gap-16 items-center">
         <li>Home</li>
         <li>About Us</li>
         <li class="w-20"><img src="/images/logo1.png" alt="Navbar Logo"></li>
         <li>Home</li>
         <li>About Us</li>
+      </ul>
+      <ul class="w-full flex md:hidden gap-5 md:gap-16 justify-between items-center px-2">
+        <li class="w-16"><img src="/images/logo1.png" alt="Navbar Logo"></li>
+        <li>Home</li>
       </ul>
     </nav>
   </header>
