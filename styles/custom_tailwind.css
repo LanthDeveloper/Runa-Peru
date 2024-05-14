@@ -1,0 +1,31 @@
+.h-svh{
+    height: 100vh;
+    height: 100svh;
+    max-height: 1500px;
+}
+.about_section {
+    li{
+        width: 33.33%;
+    }
+}
+header.w-full{
+    max-width: 100%;
+}
+.w-full{
+    max-width: 1280px;
+}
+
+
+
+@media (width <= 770px) {
+    .about_section {
+        li{
+            width: 50%;
+        }
+    }
+    .about_section {
+        li:nth-child(2){
+            width: 100%;
+        }
+    }
+}

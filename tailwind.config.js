@@ -10,8 +10,8 @@ module.exports = {
       'sm': ['0.875em', { lineHeight: '1rem' }],
       'base': ['1em', { lineHeight: '1.5em' }],
       'lg': ['1.125em', { lineHeight: '1.75em' }],
-      'xl': ['1.25em', { lineHeight: '1.75em' }],
-      '2xl': ['1.5em', { lineHeight: '2em' }],
+      'xl': ['1.35em', { lineHeight: '1em' }],
+      '2xl': ['1.5em', { lineHeight: '1.5em' }],
       '3xl': ['1.875em', { lineHeight: '2.25em' }],
       '4xl': ['2.25em', { lineHeight: '2.5em' }],
       '5xl': ['3em', { lineHeight: '1em' }],
@@ -19,6 +19,10 @@ module.exports = {
       '7xl': ['4.5em', { lineHeight: '.85em' }],
       '8xl': ['6em', { lineHeight: '.85em' }],
       '9xl': ['8em', { lineHeight: '.85em' }],
+    },
+    fontFamily: {
+      'cormorant': ['Cormorant Garamond', 'serif'],
+      'jost': ['Jost', 'serif'],
     },
     extend: {
       padding: {
