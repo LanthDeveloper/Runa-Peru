@@ -842,12 +842,12 @@ video {
   padding-top: 15em;
 }
 
-.pt-\[30em\] {
-  padding-top: 30em;
+.pt-80 {
+  padding-top: 20em;
 }
 
-.pt-72 {
-  padding-top: 18em;
+.pt-\[30em\] {
+  padding-top: 30em;
 }
 
 .text-center {
@@ -933,14 +933,6 @@ video {
 
 .transition-transform {
   transition-property: transform;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.transition {
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
