@@ -36,8 +36,24 @@ header.w-full{
     }
 }
 
+
 @media (width <= 770px) {
     .menu_section {
+        li{
+            width: 100%;
+        }
+    }
+}
+
+.testimonial_section {
+    li{
+      
+        width: 50%;
+    }
+}
+
+@media (width <= 770px) {
+    .testimonial_section {
         li{
             width: 100%;
         }
