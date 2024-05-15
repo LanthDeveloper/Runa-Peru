@@ -29,3 +29,17 @@ header.w-full{
         }
     }
 }
+
+.menu_section {
+    li{
+        width: 33.33%;
+    }
+}
+
+@media (width <= 770px) {
+    .menu_section {
+        li{
+            width: 100%;
+        }
+    }
+}
