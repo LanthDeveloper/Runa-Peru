@@ -9,11 +9,17 @@
         <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
         <link href="./src/output.css" rel="stylesheet" />
+
+        <!-- ICONS__FONT-AWESOME -->
+        <script src="https://kit.fontawesome.com/8fc487fc6f.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="/styles/section1.css" />
         <link rel="stylesheet" href="/styles/mediaquery.css" />
         <link rel="stylesheet" href="/styles/custom_tailwind.css" />
-        <!-- ICONS__FONT-AWESOME -->
-        <script src="https://kit.fontawesome.com/8fc487fc6f.js" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
     </head>
 
     <body class="bg-black text-white">
@@ -379,9 +385,13 @@
                         <option value="20">20 People</option>
                     </select>
 
-                    <select class="bg-transparent border-none outline-none border-b-2" name="partysize">
-                        <option value="1">05 - 06 - 2024</option>
-                    </select>
+    
+
+                    <div class="input_date_group flex items-center">
+                        <input id="dateInput" name="dateSeleccion" type="text" readonly="readonly" class="font-jost text-2xl md:text-base py-3 w-full h-max  bg-transparent outline-none" />
+                        <i class="fa fa-caret-down"></i>
+                    </div>
+                    
 
                     <select class="pick-time bg-transparent border-none outline-none border-b-2">
                         <option value="12:00" label="12:00 pm" selected="">12:00 pm</option>
@@ -472,5 +482,21 @@
         </footer>
 
         <script src="/scripts/nav_script.js"></script>
+        <script>
+            $(function() {
+              $('input[name="dateSeleccion"]').daterangepicker({
+                linkedCalendars:false,
+                autoUpdateInput:true,
+                autoApply:true,
+                showCustomRangeLabel:false,
+               
+                drops: 'up',
+                singleDatePicker: true,
+                
+                minYear: 1950,
+                maxYear: parseInt(moment().format('YYYY'),10)
+              });
+            });
+            </script>
     </body>
 </html>
