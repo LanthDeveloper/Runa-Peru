@@ -8,9 +8,9 @@ module.exports = {
     fontSize: {
       'xs': ['0.75em', { lineHeight: '.8rem' }], 
       'sm': ['0.875em', { lineHeight: '1rem' }],
-      'base': ['1em', { lineHeight: '1.5em' }],
-      'lg': ['1.125em', { lineHeight: '1.75em' }],
-      'xl': ['1.35em', { lineHeight: '1em' }],
+      'base': ['1em', { lineHeight: '1.3em' }],
+      'lg': ['1.125em', { lineHeight: '1.3em' }],
+      'xl': ['1.35em', { lineHeight: '1.3em' }],
       '2xl': ['1.55em', { lineHeight: '1.5em' }],
       '3xl': ['1.85em', { lineHeight: '1.3em' }],
       '4xl': ['2.25em', { lineHeight: '1.3em' }],
