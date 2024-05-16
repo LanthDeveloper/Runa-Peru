@@ -125,11 +125,21 @@ header.w-full{
         width: 33.33%;
     }
 }
+.footer_section {
+    input{
+        border-bottom: 1px solid white;
+    }
+}
 
 @media (width <= 770px) {
-    .footer_section>* {
+    .footer_section {
         .footer_box1>li{
             width: 100%;
+        }
+    }
+    .footer_section {
+        input{
+            width: 80%;
         }
     }
 }

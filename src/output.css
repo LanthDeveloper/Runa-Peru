@@ -680,6 +680,11 @@ video {
   height: 100%;
 }
 
+.h-max {
+  height: -moz-max-content;
+  height: max-content;
+}
+
 .h-svh {
   height: 100svh;
 }
@@ -699,6 +704,10 @@ video {
 .w-max {
   width: -moz-max-content;
   width: max-content;
+}
+
+.w-\[80\%\] {
+  width: 80%;
 }
 
 .flex-grow {
@@ -1089,6 +1098,18 @@ video {
 
   .sm\:col-span-2 {
     grid-column: span 2 / span 2;
+  }
+
+  .sm\:w-9\/12 {
+    width: 75%;
+  }
+
+  .sm\:w-\[32rem\] {
+    width: 32rem;
+  }
+
+  .sm\:w-\[80\%\] {
+    width: 80%;
   }
 
   .sm\:grid-cols-2 {
