@@ -709,11 +709,6 @@ video {
   width: 100%;
 }
 
-.w-max {
-  width: -moz-max-content;
-  width: max-content;
-}
-
 .flex-grow {
   flex-grow: 1;
 }
@@ -983,11 +978,6 @@ video {
 .text-xl {
   font-size: 1.35em;
   line-height: 1.3em;
-}
-
-.text-xs {
-  font-size: 0.75em;
-  line-height: .8rem;
 }
 
 .font-bold {
