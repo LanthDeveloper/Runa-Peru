@@ -570,8 +570,8 @@ video {
   inset: 0px;
 }
 
-.bottom-5 {
-  bottom: 1.25rem;
+.bottom-3 {
+  bottom: 0.75rem;
 }
 
 .left-0 {
@@ -747,6 +747,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .justify-end {
@@ -929,8 +933,18 @@ video {
   line-height: 1.5em;
 }
 
+.text-3xl {
+  font-size: 1.85em;
+  line-height: 1.3em;
+}
+
 .text-4xl {
   font-size: 2.25em;
+  line-height: 1.3em;
+}
+
+.text-5xl {
+  font-size: 3em;
   line-height: 1.3em;
 }
 
@@ -942,11 +956,6 @@ video {
 .text-7xl {
   font-size: 4.5em;
   line-height: .85em;
-}
-
-.text-base {
-  font-size: 1em;
-  line-height: 1.3em;
 }
 
 .text-lg {
@@ -961,16 +970,6 @@ video {
 
 .text-xl {
   font-size: 1.35em;
-  line-height: 1.3em;
-}
-
-.text-3xl {
-  font-size: 1.85em;
-  line-height: 1.3em;
-}
-
-.text-5xl {
-  font-size: 3em;
   line-height: 1.3em;
 }
 
@@ -1102,6 +1101,10 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:bottom-5 {
+    bottom: 1.25rem;
+  }
+
   .md\:z-10 {
     z-index: 10;
   }
@@ -1242,6 +1245,11 @@ video {
     line-height: 1.5em;
   }
 
+  .md\:text-4xl {
+    font-size: 2.25em;
+    line-height: 1.3em;
+  }
+
   .md\:text-base {
     font-size: 1em;
     line-height: 1.3em;
@@ -1265,11 +1273,6 @@ video {
   .md\:text-xs {
     font-size: 0.75em;
     line-height: .8rem;
-  }
-
-  .md\:text-4xl {
-    font-size: 2.25em;
-    line-height: 1.3em;
   }
 }
 

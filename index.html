@@ -15,6 +15,7 @@
     </head>
 
     <body class="bg-black text-white">
+
         <header class="fixed w-full z-50 bg-black">
             <nav class="bg-black w-full md:w-11/12 mx-auto py-3 px-3 flex md:justify-center">
                 <ul class="hidden md:flex gap-5 md:gap-16 items-center">
@@ -40,18 +41,20 @@
                 </h1>
                 <button class=" mt-7 border hover:border-white border-red-600 duration-700 transition-all font-jost text-2xl md:text-base  bg-red-600 text-white w-max py-3 px-4  hover:bg-black  ">Explore Menu</button>
             </div>
-            <p class="text-2xl md:text-lg absolute bottom-5 flex gap-2">
-                <svg class="svg_time" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M12 7V12L14.5 10.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
-                        stroke="#000000"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                    />
-                </svg>
-                Opening Hours: 12:00 - 22:00
-            </p>
+            <div class="translate-x-[-50%] translate-y-[-50%] absolute left-1/2  bottom-3 md:bottom-5">
+                <div class="flex gap-2 items-center">
+                    <svg class="svg_time" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M12 7V12L14.5 10.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
+                            stroke="#000000"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        />
+                    </svg>
+                    <p class="text-2xl md:text-lg w-max">Opening Hours: 12:00 - 22:00</p>
+                </div>
+            </div>
         </main>
 
         <section class="about_section grid place-items-center py-10 px-5 md:px-14">
@@ -461,7 +464,7 @@
                     </li>
                 </ul>
 
-                <div class="text-xl md:text-base footer_box2 flex flex-col md:flex-row items-center md:items-start md:justify-between pb-10">
+                <div class="text-xl md:text-base footer_box2 flex flex-col md:flex-row items-center justify-start md:items-start md:justify-between pb-10">
                     <p>© Copyright RunaPerú Restaurant</p>
                     <ul class="flex gap-5 mt-3 md:mt-0">
                         <li>PRIVACY</li>
