@@ -12,28 +12,39 @@
         <link rel="stylesheet" href="/styles/section1.css" />
         <link rel="stylesheet" href="/styles/mediaquery.css" />
         <link rel="stylesheet" href="/styles/custom_tailwind.css" />
+        	<!-- ICONS__FONT-AWESOME -->
+	<script src="https://kit.fontawesome.com/8fc487fc6f.js" crossorigin="anonymous"></script>
     </head>
 
     <body class="bg-black text-white">
 
         <header class="fixed w-full z-50 bg-black">
-            <nav class="bg-black w-full md:w-11/12 mx-auto py-3 px-3 flex md:justify-center">
-                <ul class="hidden md:flex gap-5 md:gap-16 items-center">
-                    <li>Home</li>
-                    <li>About Us</li>
-                    <li class="w-20"><img src="/images/logo1.png" alt="Navbar Logo" /></li>
-                    <li>Home</li>
-                    <li>About Us</li>
+            <nav class="bg-black w-full md:w-11/12 mx-auto py-3 px-8 md:px-3 flex justify-between md:justify-center items-center">
+                <i id="nav_stack" class="fa-solid fa-bars"></i>
+
+                <div class="block md:hidden w-20"><a class="no-underline" href="/index.html"><img id="nav_logo" src="/images/logo1.png" alt="Navbar Logo" /></a></div>
+                
+                <ul id="nav_box__menu" class="hidden md:flex  gap-0 md:gap-16 items-center">
+                    <li><a class="no-underline" href="#home">Home</a></li>
+                    <li> <a class="no-underline" href="#about">About Us</a></li>
+                    <li class="hidden md:block w-20">  <a class=" no-underline" href="/index.html"><img src="/images/logo1.png" alt="Navbar Logo" /></a></li>
+                    <li><a class="no-underline" href="#menu">Menu</a></li>
+                    <li> <a class="no-underline" href="#booking">Booking</a></li>
+                    
+                   
+                  
+ 
+                   
                 </ul>
-                <ul class="w-full flex md:hidden gap-5 md:gap-16 justify-between items-center px-2">
-                    <li>Home</li>
-                    <li class="w-20 max-[400px]:w-20 max-[200px]:w-5"><img src="/images/logo1.png" alt="Navbar Logo" /></li>
-                    <li>Lang</li>
-                </ul>
+
+                <select name="language" id="language" class="block md:hidden bg-transparent border-none outline-none text-white" id="">
+                    <option value="en">EN</option>
+                    <option value="es">ES</option>
+                </select>
             </nav>
         </header>
 
-        <main class="hero h-svh grid place-items-center relative">
+        <main id="home" class="hero h-svh grid place-items-center relative bloque">
             <div class="flex flex-col items-center p-2">
                 <h1 class="text-center text-7xl font-bold tracking-widest font-cormorant">
                     <span class="italic"> Wellcome to</span> <br />
@@ -58,7 +69,7 @@
             </div>
         </main>
 
-        <section class="about_section grid place-items-center py-10 px-5 md:px-14">
+        <section id="about" class="about_section grid place-items-center py-10 px-5 md:px-14 bloque">
             <div class="w-full">
                 <ul class="flex flex-wrap w-full">
                     <li class="order-1 md:order-1 p-5">
@@ -150,7 +161,7 @@
             </div>
         </section>
 
-        <section class="menu_section grid place-items-center py-10 px-7 md:px-14">
+        <section id="menu" class="menu_section grid place-items-center py-10 px-7 md:px-14 bloque">
             <div class="w-full">
                 <ul class="flex flex-wrap w-full">
                     <li class="p-5">
@@ -301,7 +312,7 @@
             </div>
         </section>
 
-        <section class="testimonial_section grid place-items-center py-10 px-7 md:px-14">
+        <section class="testimonial_section grid place-items-center py-10 px-7 md:px-14 ">
             <div class="w-full">
                 <ul class="flex flex-wrap w-full">
                     <li class="relative p-5 flex flex-col gap-4 md:flex-row">
@@ -328,7 +339,7 @@
             </div>
         </section>
 
-        <section class="banner_section grid place-items-center py-10 px-7 md:px-14">
+        <section class="banner_section grid place-items-center py-10 px-7 md:px-14 ">
             <div class="w-full">
                 <ul class="flex flex-wrap w-full">
                     <li class="order-2 md:order-1 p-5 flex flex-col justify-center">
@@ -356,7 +367,7 @@
             </div>
         </section>
 
-        <section class="booking_section grid place-items-center py-36 px-7 md:px-14 relative">
+        <section id="booking" class="booking_section grid place-items-center py-36 px-7 md:px-14 relative bloque">
             <div class="w-full">
                 <div>
                     <h4 class="text-center font-semibold text-red-600">ONLINE RESERVATION</h4>
@@ -424,7 +435,7 @@
             </div>
         </section>
 
-        <footer class="footer_section grid place-items-center px-7 md:px-14">
+        <footer class="footer_section grid place-items-center px-7 md:px-14 ">
             <div class="w-full">
                 <ul class="footer_box1 flex flex-col gap-7 md:gap-0 md:flex-row w-full py-10">
                     <li>
@@ -480,6 +491,6 @@
             </div>
         </footer>
 
-
+        <script src="/scripts/nav_script.js"></script>
     </body>
 </html>
