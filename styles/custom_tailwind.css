@@ -74,3 +74,62 @@ header.w-full{
         }
     }
 }
+
+.booking_section::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(/images/img_12.jpg) no-repeat center;
+    background-size: cover;
+    opacity: 0.3;
+  }
+  
+  
+.booking_section {
+    .select_group>*{
+        width: 33.33%;
+    }
+    .select_group>select>option{
+       background-color: black;
+    }
+    .select_group>select::-webkit-scrollbar {
+        width: 8px; /* Establece el ancho de la barra de desplazamiento como "delgada" */
+        height: thin; /* Establece la altura de la barra de desplazamiento como "delgada" */
+    }
+        /* Estilos para WebKit/Blink (Chrome, Safari, Opera) */
+        .select_group>select::-webkit-scrollbar-track {
+            background-color: black; /* Establece el color de fondo de la pista de la barra de desplazamiento como negro */
+
+        }
+        .select_group>select::-webkit-scrollbar-thumb {
+            background-color: gray; /* Establece el color del pulgar de la barra de desplazamiento como gris */
+
+        }
+}
+
+@media (width <= 770px) {
+    .booking_section {
+        .select_group>*{
+            width: 100%;
+        }
+    }
+}
+
+.footer_section {
+    .footer_box1>li{
+        border: 1px solid white;
+        width: 33.33%;
+    }
+}
+
+@media (width <= 770px) {
+    .footer_section>* {
+        .footer_box1>li{
+            width: 100%;
+        }
+    }
+}
