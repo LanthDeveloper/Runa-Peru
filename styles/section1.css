@@ -42,7 +42,7 @@ a{
 
 #nav_stack{
   display: none;
-  font-size: 1.3em;
+  font-size: 2em;
 }
 
 @media (width <= 640px) {
@@ -115,4 +115,14 @@ a{
         border-bottom: none;
     }
 
+}
+
+
+@media (width <= 300px) {
+  .text-lg{
+    line-height: 2.5em;
+  }
+ .text-xl{
+  line-height: 2.5em;
+  }
 }
