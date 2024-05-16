@@ -1251,6 +1251,10 @@ video {
     padding-bottom: 0em;
   }
 
+  .md\:pe-5 {
+    padding-inline-end: 1.25em;
+  }
+
   .md\:pt-40 {
     padding-top: 10em;
   }
