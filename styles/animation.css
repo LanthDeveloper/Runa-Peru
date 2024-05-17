@@ -58,6 +58,25 @@
       transform: translateY(50%);
   }
 }
+
+@media (width <= 700px) {
+  .l_to_r_sm_min {
+      transform: translateX(-5%);
+  }
+
+  .r_to_l_sm_min {
+      transform: translateX(5%);
+  }
+
+  .t_to_b_sm_min {
+      transform: translateY(-5%);
+  }
+
+  .b_to_t_sm_min {
+      transform: translateY(5%);
+  }
+}
+
 .animate > * {
   opacity: 1;
   transform: translateX(0) translateY(0);
