@@ -61,19 +61,19 @@
 
 @media (width <= 700px) {
   .l_to_r_sm_min {
-      transform: translateX(-5%);
+      transform: translateX(-20%);
   }
 
   .r_to_l_sm_min {
-      transform: translateX(5%);
+      transform: translateX(20%);
   }
 
   .t_to_b_sm_min {
-      transform: translateY(-5%);
+      transform: translateY(-20%);
   }
 
   .b_to_t_sm_min {
-      transform: translateY(5%);
+      transform: translateY(20%);
   }
 }
 
