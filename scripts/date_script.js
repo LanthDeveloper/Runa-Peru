@@ -1,0 +1,1 @@
+$(function(){$('input[name="dateSeleccion"]').daterangepicker({linkedCalendars:!1,autoUpdateInput:!0,autoApply:!0,showCustomRangeLabel:!1,drops:"up",singleDatePicker:!0,minYear:2024,maxYear:parseInt(moment().format("YYYY"),10)})});
