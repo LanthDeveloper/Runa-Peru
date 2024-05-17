@@ -1,1 +1,176 @@
-#nav_box__menu>.active,#nav_box__menu>a:hover,#nav_stack:hover{color:red}*{font-family:Jost,sans-serif;font-weight:400;font-style:normal;scrollbar-width:thin;scrollbar-color:gray black;scroll-behavior:smooth}.hero::before{content:"";position:absolute;z-index:-1;top:0;bottom:0;left:0;right:0;background:url(/images/hero_wallpaper.webp) center/80% auto no-repeat;opacity:.5}@media (width <= 540px){.hero::before{background-size:200% auto}}.svg_time{width:1.5em;-webkit-filter:invert(100%);filter:invert(100%)}a{text-decoration:underline}#nav_stack{display:none;font-size:2em}@media (width <= 640px){*{scrollbar-width:none}#nav_stack{display:block}}#nav_box__menu>a{font-weight:600;-webkit-transition:.25s;-o-transition:.25s;transition:.25s}@media (max-width:700px){#nav_box__menu.show{position:absolute;padding:0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-flow:column;flex-flow:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;top:100%;right:0;width:100%;background-color:#000}#nav_box__menu.show>li{padding:0;text-align:center;width:100%;border-bottom:2px solid #393d40}#nav_box__menu>li>a{margin:0;display:block;width:100%;height:100%}#nav_box__menu.show>li>a{padding:1em 0}#nav_box__menu.show>li:nth-child(6){border-bottom:none}}@media (width <= 300px){.text-lg,.text-xl{line-height:2.5em}}#dateInput:focus{outline:0}.daterangepicker{background-color:#1a1a1a!important;border:1px solid #333!important;-webkit-box-shadow:0 0 10px rgba(255,255,255,.1)!important;box-shadow:0 0 10px rgba(255,255,255,.1)!important}.daterangepicker .calendar-table{background-color:#1a1a1a!important;border:none!important}.daterangepicker td.off,.daterangepicker td.off.end-date,.daterangepicker td.off.start-date{background-color:#333!important;color:#666!important}.daterangepicker .drp-buttons .btn:hover,.daterangepicker td.available:hover,.daterangepicker th.available:hover{background-color:#666!important;color:#fff!important}.daterangepicker td.in-range{background-color:#333!important;color:#fff!important}.daterangepicker td.active,.daterangepicker td.active:hover,.daterangepicker td.end-date,.daterangepicker td.start-date{background-color:#036!important;color:#fff!important}.daterangepicker .calendar-table th{color:#ccc!important}.daterangepicker .drp-buttons .btn{background-color:#333!important;color:#fff!important;border-color:#666!important}.daterangepicker td.off{background-color:#1a1a1a!important;color:#000!important}.daterangepicker .calendar-table .next span,.daterangepicker .calendar-table .prev span{border-right:solid #fff!important;border-bottom:solid #fff!important}
+* {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  scrollbar-width: thin;
+  scrollbar-color: gray black;
+  scroll-behavior: smooth;
+}
+@media (width <= 640px) {
+  * {
+      scrollbar-width: none;
+  }
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url(/images/hero_wallpaper.webp) no-repeat center;
+  background-size: 80% auto;
+  opacity: 0.5;
+}
+
+@media (width <= 540px) {
+  .hero::before {
+      background-size: 200% auto;
+  }
+}
+
+.svg_time {
+  width: 1.5em;
+  filter: invert(100%);
+}
+
+a {
+  text-decoration: underline;
+}
+
+#nav_stack {
+  display: none;
+  font-size: 2em;
+}
+
+@media (width <= 640px) {
+  #nav_stack {
+      display: block;
+  }
+}
+
+#nav_stack:hover {
+  color: red;
+}
+
+#nav_box__menu > .active {
+  color: red;
+}
+#nav_box__menu > a {
+  font-weight: 600;
+  -webkit-transition: 0.25s;
+  -o-transition: 0.25s;
+  transition: 0.25s;
+}
+
+#nav_box__menu > a:hover {
+  color: red;
+}
+
+
+@media (max-width: 700px) {
+  #nav_box__menu.show {
+      position: absolute;
+      padding: 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+      flex-flow: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      top: 100%;
+      right: 0%;
+      width: 100%;
+      background-color: black;
+  }
+  #nav_box__menu.show > li {
+      padding: 0;
+      text-align: center;
+      width: 100%;
+      border-bottom: 2px solid rgb(57, 61, 64);
+  }
+  #nav_box__menu > li > a {
+      margin: 0px;
+      display: block;
+      width: 100%;
+      height: 100%;
+  }
+  #nav_box__menu.show > li > a {
+      padding: 1em 0;
+  }
+  #nav_box__menu.show > li:nth-child(6) {
+      border-bottom: none;
+  }
+}
+
+@media (width <= 300px) {
+  .text-lg {
+      line-height: 2.5em;
+  }
+  .text-xl {
+      line-height: 2.5em;
+  }
+}
+
+#dateInput:focus {
+  outline: none;
+}
+.daterangepicker {
+  background-color: #1a1a1a !important;
+  border: 1px solid #333333 !important;
+  -webkit-box-shadow: 0 0 10px rgba(255, 255, 255, 0.1) !important;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1) !important;
+}
+.daterangepicker .calendar-table {
+  background-color: #1a1a1a !important;
+  border: none !important;
+}
+.daterangepicker td.off,
+.daterangepicker td.off.end-date,
+.daterangepicker td.off.start-date {
+  background-color: #333333 !important;
+  color: #666666 !important;
+}
+.daterangepicker td.available:hover,
+.daterangepicker th.available:hover {
+  background-color: #666666 !important;
+  color: #ffffff !important;
+}
+.daterangepicker td.in-range {
+  background-color: #333333 !important;
+  color: #ffffff !important;
+}
+.daterangepicker td.active,
+.daterangepicker td.active:hover,
+.daterangepicker td.start-date,
+.daterangepicker td.end-date {
+  background-color: #003366 !important;
+  color: #ffffff !important;
+}
+.daterangepicker .calendar-table th {
+  color: #cccccc !important;
+}
+.daterangepicker .drp-buttons .btn {
+  background-color: #333333 !important;
+  color: #ffffff !important;
+  border-color: #666666 !important;
+}
+.daterangepicker .drp-buttons .btn:hover {
+  background-color: #666666 !important;
+  color: #ffffff !important;
+}
+.daterangepicker td.off {
+  background-color: #1a1a1a !important;
+  color: black !important;
+}
+.daterangepicker .calendar-table .next span,
+.daterangepicker .calendar-table .prev span {
+  border-right: solid white !important;
+  border-bottom: solid white !important;
+}
