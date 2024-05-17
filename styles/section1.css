@@ -17,7 +17,7 @@
   position: absolute;
   z-index: -1;
   top: 0%;
-  bottom: 0;
+  bottom: -12%;
   left: 0;
   right: 0;
   background: url(/images/hero_wallpaper.webp) no-repeat center;
@@ -27,6 +27,7 @@
 
 @media (width <= 540px) {
   .hero::before {
+    bottom: 0%;
       background-size: 200% auto;
   }
 }
